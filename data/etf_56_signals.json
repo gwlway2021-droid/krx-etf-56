@@ -1,8 +1,8 @@
 {
   "source": "KRX Open API ETF 일별매매정보 (일별 종가, 수정종가 아님)",
-  "requested_end": "2026-11-25",
+  "requested_end": "2026-11-26",
   "analysis_base_date": "2026-11-25",
-  "collected_trading_days": 278,
+  "collected_trading_days": 277,
   "target_count": 56,
   "analyzable_count": 56,
   "fetch_status": "complete",
@@ -10,14 +10,14 @@
     {
       "code": "148020",
       "name": "RISE 200",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 73385.0,
       "rsi14": 34.9889,
       "macd_12_26_9": {
-        "macd": -5095.486194,
-        "signal": -4925.983992,
+        "macd": -5095.486195,
+        "signal": -4925.983993,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -34,8 +34,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -6405.526853,
-        "signal": -6086.661739,
+        "macd": -6405.527714,
+        "signal": -6086.66283,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -57,14 +57,14 @@
     {
       "code": "396500",
       "name": "TIGER 반도체TOP10",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 22590.0,
       "rsi14": 35.3373,
       "macd_12_26_9": {
-        "macd": -2088.910786,
-        "signal": -1988.169615,
+        "macd": -2088.910787,
+        "signal": -1988.169616,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -81,8 +81,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -2539.844845,
-        "signal": -2370.678925,
+        "macd": -2539.845588,
+        "signal": -2370.679866,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -104,13 +104,13 @@
     {
       "code": "367760",
       "name": "RISE 네트워크인프라",
-      "count": 278,
+      "count": 277,
       "status": "recent_5d_golden",
       "latest_date": "2026-11-25",
       "latest_close": 36010.0,
       "rsi14": 36.1526,
       "macd_12_26_9": {
-        "macd": -3421.11817,
+        "macd": -3421.118171,
         "signal": -3501.681293,
         "line_vs_signal": "above",
         "line_vs_zero": "below_or_equal",
@@ -128,8 +128,8 @@
         "golden_still_active": true
       },
       "macd_19_39_9": {
-        "macd": -4336.22307,
-        "signal": -4195.317779,
+        "macd": -4336.223651,
+        "signal": -4195.318514,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -151,7 +151,7 @@
     {
       "code": "139270",
       "name": "TIGER 200 금융",
-      "count": 278,
+      "count": 277,
       "status": "recent_5d_golden",
       "latest_date": "2026-11-25",
       "latest_close": 14115.0,
@@ -175,8 +175,8 @@
         "golden_still_active": true
       },
       "macd_19_39_9": {
-        "macd": -470.348815,
-        "signal": -473.452751,
+        "macd": -470.34868,
+        "signal": -473.45258,
         "line_vs_signal": "above",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -245,14 +245,14 @@
     {
       "code": "469070",
       "name": "RISE AI&로봇",
-      "count": 278,
+      "count": 277,
       "status": "delayed_entry_valid",
       "latest_date": "2026-11-25",
       "latest_close": 9220.0,
       "rsi14": 51.8718,
       "macd_12_26_9": {
         "macd": -217.107722,
-        "signal": -330.771874,
+        "signal": -330.771875,
         "line_vs_signal": "above",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -269,8 +269,8 @@
         "golden_still_active": true
       },
       "macd_19_39_9": {
-        "macd": -413.406892,
-        "signal": -483.138556,
+        "macd": -413.407307,
+        "signal": -483.139082,
         "line_vs_signal": "above",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -292,7 +292,7 @@
     {
       "code": "487240",
       "name": "KODEX AI전력핵심설비",
-      "count": 278,
+      "count": 277,
       "status": "recent_5d_golden",
       "latest_date": "2026-11-25",
       "latest_close": 20390.0,
@@ -316,8 +316,8 @@
         "golden_still_active": true
       },
       "macd_19_39_9": {
-        "macd": -2911.748634,
-        "signal": -2974.07921,
+        "macd": -2911.74914,
+        "signal": -2974.079851,
         "line_vs_signal": "above",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -339,7 +339,7 @@
     {
       "code": "102970",
       "name": "KODEX 증권",
-      "count": 278,
+      "count": 277,
       "status": "recent_5d_golden",
       "latest_date": "2026-11-25",
       "latest_close": 12865.0,
@@ -363,8 +363,8 @@
         "golden_still_active": true
       },
       "macd_19_39_9": {
-        "macd": -1027.994455,
-        "signal": -1044.13409,
+        "macd": -1027.994492,
+        "signal": -1044.134137,
         "line_vs_signal": "above",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -433,7 +433,7 @@
     {
       "code": "138540",
       "name": "TIGER 현대차그룹플러스",
-      "count": 278,
+      "count": 277,
       "status": "recent_5d_golden",
       "latest_date": "2026-11-25",
       "latest_close": 37680.0,
@@ -457,8 +457,8 @@
         "golden_still_active": true
       },
       "macd_19_39_9": {
-        "macd": -2207.587382,
-        "signal": -2341.820756,
+        "macd": -2207.587031,
+        "signal": -2341.820311,
         "line_vs_signal": "above",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -480,7 +480,7 @@
     {
       "code": "138530",
       "name": "TIGER LG그룹플러스",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 9700.0,
@@ -504,8 +504,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -487.262173,
-        "signal": -467.352131,
+        "macd": -487.26221,
+        "signal": -467.352178,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -527,7 +527,7 @@
     {
       "code": "0091P0",
       "name": "TIGER 코리아원자력",
-      "count": 278,
+      "count": 277,
       "status": "delayed_entry_valid",
       "latest_date": "2026-11-25",
       "latest_close": 9515.0,
@@ -551,8 +551,8 @@
         "golden_still_active": true
       },
       "macd_19_39_9": {
-        "macd": -1412.52921,
-        "signal": -1370.536377,
+        "macd": -1412.529575,
+        "signal": -1370.536839,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -574,7 +574,7 @@
     {
       "code": "364990",
       "name": "TIGER 게임TOP10",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 4185.0,
@@ -598,8 +598,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -105.613323,
-        "signal": -91.362145,
+        "macd": -105.613299,
+        "signal": -91.362115,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -621,7 +621,7 @@
     {
       "code": "364970",
       "name": "TIGER 바이오TOP10",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 6440.0,
@@ -645,8 +645,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -131.42864,
-        "signal": -114.132935,
+        "macd": -131.428589,
+        "signal": -114.132871,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -668,7 +668,7 @@
     {
       "code": "279530",
       "name": "KODEX 고배당주",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 15230.0,
@@ -692,8 +692,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -449.321711,
-        "signal": -401.041562,
+        "macd": -449.321616,
+        "signal": -401.041442,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -715,7 +715,7 @@
     {
       "code": "117700",
       "name": "KODEX 건설",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 5145.0,
@@ -739,8 +739,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -280.120367,
-        "signal": -240.988994,
+        "macd": -280.120405,
+        "signal": -240.989041,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -762,14 +762,14 @@
     {
       "code": "143860",
       "name": "TIGER 헬스케어",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 32920.0,
       "rsi14": 49.0549,
       "macd_12_26_9": {
         "macd": -575.878502,
-        "signal": -557.670115,
+        "signal": -557.670114,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -786,8 +786,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -809.202172,
-        "signal": -799.117057,
+        "macd": -809.201976,
+        "signal": -799.116809,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -809,7 +809,7 @@
     {
       "code": "469170",
       "name": "ACE 포스코그룹포커스",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 5080.0,
@@ -833,8 +833,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -149.243107,
-        "signal": -137.137668,
+        "macd": -149.243047,
+        "signal": -137.137591,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -856,7 +856,7 @@
     {
       "code": "0000J0",
       "name": "PLUS 한화그룹주",
-      "count": 278,
+      "count": 277,
       "status": "new_buy_signal",
       "latest_date": "2026-11-25",
       "latest_close": 16630.0,
@@ -880,8 +880,8 @@
         "golden_still_active": true
       },
       "macd_19_39_9": {
-        "macd": -2349.604365,
-        "signal": -2249.144777,
+        "macd": -2349.60396,
+        "signal": -2249.144264,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -903,7 +903,7 @@
     {
       "code": "228790",
       "name": "TIGER 화장품",
-      "count": 278,
+      "count": 277,
       "status": "delayed_entry_valid",
       "latest_date": "2026-11-25",
       "latest_close": 3950.0,
@@ -927,8 +927,8 @@
         "golden_still_active": true
       },
       "macd_19_39_9": {
-        "macd": -112.494799,
-        "signal": -157.276289,
+        "macd": -112.494748,
+        "signal": -157.276225,
         "line_vs_signal": "above",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -950,7 +950,7 @@
     {
       "code": "494670",
       "name": "TIGER 조선TOP10",
-      "count": 278,
+      "count": 277,
       "status": "delayed_entry_valid",
       "latest_date": "2026-11-25",
       "latest_close": 13160.0,
@@ -974,8 +974,8 @@
         "golden_still_active": true
       },
       "macd_19_39_9": {
-        "macd": -1567.140483,
-        "signal": -1618.327888,
+        "macd": -1567.140358,
+        "signal": -1618.32773,
         "line_vs_signal": "above",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -997,14 +997,14 @@
     {
       "code": "449450",
       "name": "PLUS K방산",
-      "count": 278,
+      "count": 277,
       "status": "recent_5d_golden",
       "latest_date": "2026-11-25",
       "latest_close": 30450.0,
       "rsi14": 36.6646,
       "macd_12_26_9": {
-        "macd": -2985.717335,
-        "signal": -3266.082285,
+        "macd": -2985.717334,
+        "signal": -3266.082284,
         "line_vs_signal": "above",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -1021,8 +1021,8 @@
         "golden_still_active": true
       },
       "macd_19_39_9": {
-        "macd": -4292.521111,
-        "signal": -4400.252799,
+        "macd": -4292.519994,
+        "signal": -4400.251384,
         "line_vs_signal": "above",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -1044,7 +1044,7 @@
     {
       "code": "305720",
       "name": "KODEX 2차전지산업",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 11595.0,
@@ -1068,8 +1068,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -726.533844,
-        "signal": -635.377167,
+        "macd": -726.533725,
+        "signal": -635.377018,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -1091,14 +1091,14 @@
     {
       "code": "462010",
       "name": "TIGER 2차전지소재Fn",
-      "count": 278,
+      "count": 277,
       "status": "new_buy_signal",
       "latest_date": "2026-11-25",
       "latest_close": 3850.0,
       "rsi14": 43.3787,
       "macd_12_26_9": {
         "macd": -174.022017,
-        "signal": -174.49472,
+        "signal": -174.494719,
         "line_vs_signal": "above",
         "line_vs_zero": "below_or_equal",
         "new_cross": "golden",
@@ -1115,8 +1115,8 @@
         "golden_still_active": true
       },
       "macd_19_39_9": {
-        "macd": -214.922054,
-        "signal": -204.593334,
+        "macd": -214.922003,
+        "signal": -204.59327,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -1138,7 +1138,7 @@
     {
       "code": "229200",
       "name": "KODEX 코스닥150",
-      "count": 278,
+      "count": 277,
       "status": "delayed_entry_valid",
       "latest_date": "2026-11-25",
       "latest_close": 10735.0,
@@ -1162,8 +1162,8 @@
         "golden_still_active": true
       },
       "macd_19_39_9": {
-        "macd": -765.039689,
-        "signal": -761.755861,
+        "macd": -765.039737,
+        "signal": -761.755921,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -1185,14 +1185,14 @@
     {
       "code": "411060",
       "name": "ACE KRX금현물",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 21170.0,
       "rsi14": 26.7319,
       "macd_12_26_9": {
-        "macd": -874.165699,
-        "signal": -663.86431,
+        "macd": -874.1657,
+        "signal": -663.864311,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -1209,8 +1209,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -949.968254,
-        "signal": -788.700175,
+        "macd": -949.969325,
+        "signal": -788.701531,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -1232,7 +1232,7 @@
     {
       "code": "475050",
       "name": "ACE KPOP포커스",
-      "count": 278,
+      "count": 277,
       "status": "entry_conditions_unmet",
       "latest_date": "2026-11-25",
       "latest_close": 7870.0,
@@ -1256,8 +1256,8 @@
         "golden_still_active": true
       },
       "macd_19_39_9": {
-        "macd": 185.718342,
-        "signal": 77.797577,
+        "macd": 185.718258,
+        "signal": 77.79747,
         "line_vs_signal": "above",
         "line_vs_zero": "above",
         "new_cross": "none",
@@ -1279,14 +1279,14 @@
     {
       "code": "445290",
       "name": "KODEX 로봇액티브",
-      "count": 278,
+      "count": 277,
       "status": "delayed_entry_valid",
       "latest_date": "2026-11-25",
       "latest_close": 25505.0,
       "rsi14": 50.4295,
       "macd_12_26_9": {
-        "macd": -587.225373,
-        "signal": -887.613766,
+        "macd": -587.225374,
+        "signal": -887.613768,
         "line_vs_signal": "above",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -1303,8 +1303,8 @@
         "golden_still_active": true
       },
       "macd_19_39_9": {
-        "macd": -1116.125641,
-        "signal": -1302.851745,
+        "macd": -1116.126559,
+        "signal": -1302.852908,
         "line_vs_signal": "above",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -1373,7 +1373,7 @@
     {
       "code": "228800",
       "name": "TIGER 여행레저",
-      "count": 278,
+      "count": 277,
       "status": "delayed_entry_valid",
       "latest_date": "2026-11-25",
       "latest_close": 2635.0,
@@ -1397,8 +1397,8 @@
         "golden_still_active": true
       },
       "macd_19_39_9": {
-        "macd": 1.3663,
-        "signal": -9.574276,
+        "macd": 1.366368,
+        "signal": -9.57419,
         "line_vs_signal": "above",
         "line_vs_zero": "above",
         "new_cross": "none",
@@ -1420,7 +1420,7 @@
     {
       "code": "457990",
       "name": "PLUS 태양광&ESS",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 24395.0,
@@ -1444,8 +1444,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -2530.784094,
-        "signal": -2266.987927,
+        "macd": -2530.784148,
+        "signal": -2266.987995,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -1467,14 +1467,14 @@
     {
       "code": "139230",
       "name": "TIGER 200 중공업",
-      "count": 278,
+      "count": 277,
       "status": "recent_5d_golden",
       "latest_date": "2026-11-25",
       "latest_close": 7150.0,
       "rsi14": 32.6033,
       "macd_12_26_9": {
         "macd": -755.497505,
-        "signal": -801.485133,
+        "signal": -801.485134,
         "line_vs_signal": "above",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -1491,8 +1491,8 @@
         "golden_still_active": true
       },
       "macd_19_39_9": {
-        "macd": -1070.122037,
-        "signal": -1084.868121,
+        "macd": -1070.122357,
+        "signal": -1084.868527,
         "line_vs_signal": "above",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -1514,14 +1514,14 @@
     {
       "code": "091180",
       "name": "KODEX 자동차",
-      "count": 278,
+      "count": 277,
       "status": "recent_5d_golden",
       "latest_date": "2026-11-25",
       "latest_close": 21920.0,
       "rsi14": 46.1138,
       "macd_12_26_9": {
         "macd": -668.609555,
-        "signal": -760.834164,
+        "signal": -760.834163,
         "line_vs_signal": "above",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -1538,8 +1538,8 @@
         "golden_still_active": true
       },
       "macd_19_39_9": {
-        "macd": -1066.002179,
-        "signal": -1130.93302,
+        "macd": -1066.001983,
+        "signal": -1130.932772,
         "line_vs_signal": "above",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -1561,7 +1561,7 @@
     {
       "code": "300950",
       "name": "KODEX 게임산업",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 4940.0,
@@ -1585,8 +1585,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -132.586162,
-        "signal": -116.779674,
+        "macd": -132.586152,
+        "signal": -116.779661,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -1608,7 +1608,7 @@
     {
       "code": "139250",
       "name": "TIGER 200 에너지화학",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 12310.0,
@@ -1632,8 +1632,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -1069.912371,
-        "signal": -980.069111,
+        "macd": -1069.912307,
+        "signal": -980.069029,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -1655,14 +1655,14 @@
     {
       "code": "139260",
       "name": "TIGER 200 IT",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 85690.0,
       "rsi14": 36.0171,
       "macd_12_26_9": {
-        "macd": -7932.11362,
-        "signal": -7763.831253,
+        "macd": -7932.113621,
+        "signal": -7763.831255,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "dead",
@@ -1679,8 +1679,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -9738.010815,
-        "signal": -9190.358553,
+        "macd": -9738.012267,
+        "signal": -9190.360391,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -1702,7 +1702,7 @@
     {
       "code": "261220",
       "name": "KODEX WTI원유선물(H)",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 24200.0,
@@ -1726,8 +1726,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -562.202607,
-        "signal": -228.728592,
+        "macd": -562.202479,
+        "signal": -228.728429,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -1749,14 +1749,14 @@
     {
       "code": "133690",
       "name": "TIGER 미국나스닥100",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 153760.0,
       "rsi14": 34.0824,
       "macd_12_26_9": {
-        "macd": -4765.32516,
-        "signal": -4210.449818,
+        "macd": -4765.325163,
+        "signal": -4210.449821,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -1773,8 +1773,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -5332.718175,
-        "signal": -4688.65841,
+        "macd": -5332.720967,
+        "signal": -4688.661947,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -1796,14 +1796,14 @@
     {
       "code": "457480",
       "name": "ACE 테슬라밸류체인액티브",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 15180.0,
       "rsi14": 37.3926,
       "macd_12_26_9": {
         "macd": -469.189423,
-        "signal": -374.721479,
+        "signal": -374.721478,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -1820,8 +1820,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -549.137014,
-        "signal": -480.299249,
+        "macd": -549.136693,
+        "signal": -480.298843,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -1843,14 +1843,14 @@
     {
       "code": "0023A0",
       "name": "SOL 미국양자컴퓨팅TOP10",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 14125.0,
       "rsi14": 30.0512,
       "macd_12_26_9": {
-        "macd": -1482.682704,
-        "signal": -1356.788385,
+        "macd": -1482.682708,
+        "signal": -1356.78839,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -1867,8 +1867,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -1860.879282,
-        "signal": -1740.927161,
+        "macd": -1860.883671,
+        "signal": -1740.93272,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -1890,14 +1890,14 @@
     {
       "code": "381180",
       "name": "TIGER 미국필라델피아반도체나스닥",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 30025.0,
       "rsi14": 34.7544,
       "macd_12_26_9": {
-        "macd": -2083.535129,
-        "signal": -1893.474371,
+        "macd": -2083.53513,
+        "signal": -1893.474373,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -1914,8 +1914,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -2420.420661,
-        "signal": -2185.903211,
+        "macd": -2420.421839,
+        "signal": -2185.904703,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -1937,14 +1937,14 @@
     {
       "code": "456600",
       "name": "TIME 글로벌AI인공지능액티브",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 40000.0,
       "rsi14": 26.4818,
       "macd_12_26_9": {
-        "macd": -3071.814524,
-        "signal": -2920.825912,
+        "macd": -3071.814525,
+        "signal": -2920.825913,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -1961,8 +1961,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -3647.708202,
-        "signal": -3366.929776,
+        "macd": -3647.709397,
+        "signal": -3366.93129,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -2078,7 +2078,7 @@
     {
       "code": "448540",
       "name": "ACE 엔비디아채권혼합",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 23940.0,
@@ -2102,8 +2102,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -642.586759,
-        "signal": -556.260004,
+        "macd": -642.586945,
+        "signal": -556.260239,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -2125,7 +2125,7 @@
     {
       "code": "465580",
       "name": "ACE 미국빅테크TOP7 Plus",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 21325.0,
@@ -2149,8 +2149,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -589.121415,
-        "signal": -502.599191,
+        "macd": -589.121712,
+        "signal": -502.599567,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -2172,14 +2172,14 @@
     {
       "code": "0053L0",
       "name": "TIGER 차이나휴머노이드로봇",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 7810.0,
       "rsi14": 39.6545,
       "macd_12_26_9": {
-        "macd": -147.003769,
-        "signal": -87.387376,
+        "macd": -147.003768,
+        "signal": -87.387375,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -2196,8 +2196,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -212.283278,
-        "signal": -193.38383,
+        "macd": -212.282583,
+        "signal": -193.382949,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -2266,14 +2266,14 @@
     {
       "code": "487230",
       "name": "KODEX 미국AI전력핵심인프라",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 12885.0,
       "rsi14": 34.8402,
       "macd_12_26_9": {
-        "macd": -1009.071669,
-        "signal": -989.570885,
+        "macd": -1009.07167,
+        "signal": -989.570886,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "dead",
@@ -2290,8 +2290,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -1316.092544,
-        "signal": -1271.713292,
+        "macd": -1316.093415,
+        "signal": -1271.714395,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -2360,14 +2360,14 @@
     {
       "code": "446770",
       "name": "ACE 글로벌반도체TOP4 Plus",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 54225.0,
       "rsi14": 33.7815,
       "macd_12_26_9": {
-        "macd": -4154.683277,
-        "signal": -3827.301138,
+        "macd": -4154.683278,
+        "signal": -3827.30114,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -2384,8 +2384,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -4759.099186,
-        "signal": -4282.459145,
+        "macd": -4759.100641,
+        "signal": -4282.460988,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -2407,7 +2407,7 @@
     {
       "code": "360750",
       "name": "TIGER 미국S&P500",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 23805.0,
@@ -2431,8 +2431,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -468.467714,
-        "signal": -388.61675,
+        "macd": -468.468018,
+        "signal": -388.617135,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -2548,7 +2548,7 @@
     {
       "code": "453810",
       "name": "KODEX 인도Nifty50",
-      "count": 278,
+      "count": 277,
       "status": "entry_conditions_unmet",
       "latest_date": "2026-11-25",
       "latest_close": 12600.0,
@@ -2572,8 +2572,8 @@
         "golden_still_active": true
       },
       "macd_19_39_9": {
-        "macd": 297.328229,
-        "signal": 209.177113,
+        "macd": 297.328036,
+        "signal": 209.176869,
         "line_vs_signal": "above",
         "line_vs_zero": "above",
         "new_cross": "none",
@@ -2595,14 +2595,14 @@
     {
       "code": "245710",
       "name": "ACE 베트남VN30(합성)",
-      "count": 278,
+      "count": 277,
       "status": "watch",
       "latest_date": "2026-11-25",
       "latest_close": 25745.0,
       "rsi14": 37.6423,
       "macd_12_26_9": {
-        "macd": -347.057342,
-        "signal": -290.428482,
+        "macd": -347.057343,
+        "signal": -290.428483,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
@@ -2619,8 +2619,8 @@
         "golden_still_active": false
       },
       "macd_19_39_9": {
-        "macd": -455.924713,
-        "signal": -425.207811,
+        "macd": -455.925739,
+        "signal": -425.209111,
         "line_vs_signal": "below_or_equal",
         "line_vs_zero": "below_or_equal",
         "new_cross": "none",
