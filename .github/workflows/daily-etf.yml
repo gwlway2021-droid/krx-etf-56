@@ -1,0 +1,49 @@
+name: KRX ETF 56 daily data
+
+on:
+  schedule:
+    - cron: '15 22 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-etf
+  cancel-in-progress: false
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test indicator calculations
+        run: python krx_etf_56_daily.py --self-test
+      - name: Fetch confirmed KRX closes and calculate signals
+        env:
+          KRX_AUTH_KEY: ${{ secrets.KRX_AUTH_KEY }}
+        run: python krx_etf_56_daily.py --out data
+      - name: Verify report is complete
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = json.loads(Path('data/etf_56_signals.json').read_text(encoding='utf-8'))
+          assert p['fetch_status'] == 'complete', p['fetch_status']
+          assert p['target_count'] == 56, p['target_count']
+          assert p['analyzable_count'] == 56, p['analyzable_count']
+          print('Verified:', p['analysis_base_date'], '56/56')
+          PY
+      - name: Publish latest validated CSV and signals
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/etf_56_daily.csv data/etf_56_signals.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update KRX ETF 56 daily signals'
+            git push
+          fi
