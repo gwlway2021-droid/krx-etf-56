@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""KRX 공식 ETF 일봉: 56개 관심종목 MACD·RSI 분석.
+"""KRX 공식 ETF 일봉: 58개 관심종목 MACD·RSI 분석.
 
 Google Colab / Python 3.10+ / 표준 라이브러리만 사용합니다.
     python krx_etf_56_daily.py --self-test
@@ -45,6 +45,7 @@ TARGETS = {
     "0091P0": "TIGER 코리아원자력",
     "364990": "TIGER 게임TOP10",
     "364970": "TIGER 바이오TOP10",
+    "244580": "KODEX 바이오",
     "279530": "KODEX 고배당주",
     "117700": "KODEX 건설",
     "143860": "TIGER 헬스케어",
@@ -52,6 +53,7 @@ TARGETS = {
     "0000J0": "PLUS 한화그룹주",
     "228790": "TIGER 화장품",
     "494670": "TIGER 조선TOP10",
+    "466920": "SOL 조선TOP3플러스",
     "449450": "PLUS K방산",
     "305720": "KODEX 2차전지산업",
     "462010": "TIGER 2차전지소재Fn",
@@ -297,7 +299,7 @@ def write_outputs(out: Path, rows: list[dict], end: date, status: str) -> list[d
 
 
 def run_self_test() -> None:
-    assert len(TARGETS) == 56, f"종목 개수 {len(TARGETS)} != 56"
+    assert len(TARGETS) == 58, f"종목 개수 {len(TARGETS)} != 58"
     assert "0131V0" not in TARGETS and "0180V0" not in TARGETS
     assert number("12,345") == 12345 and number("-") is None
     assert abs(ema([10, 12], 3)[-1] - 11) < 1e-9
@@ -307,7 +309,7 @@ def run_self_test() -> None:
     d = date(2026, 11, 25)
     data = parsed_day([{"ISU_CD": "0173Y0", "BAS_DD": "20261125", "TDD_CLSPRC": "6,360"}], d)
     assert len(data) == 1 and data[0]["close"] == 6360
-    print("PASS: 56개 종목 목록·제외 2개·가격·MACD·RSI 테스트")
+    print("PASS: 58개 종목 목록·제외 2개·가격·MACD·RSI 테스트")
 
 
 def main() -> int:
@@ -340,10 +342,18 @@ def main() -> int:
             p.error("KRX_AUTH_KEY가 없습니다. 인증키를 getpass로 입력하세요")
         cache = read_cache(args.out / "etf_56_daily.csv", start, end)
         existing_dates = [date.fromisoformat(day) for (_, day) in cache]
-        first = max(existing_dates) + timedelta(days=1) if existing_dates else start
+        history_count = defaultdict(int)
+        for code, _ in cache:
+            history_count[code] += 1
+        needs_backfill = [code for code in TARGETS if history_count[code] < MIN_HISTORY]
+        if needs_backfill:
+            first = start
+            print(f"과거 데이터 보강: {len(needs_backfill)}개 종목, 시작일 {first}", flush=True)
+        else:
+            first = max(existing_dates) + timedelta(days=1) if existing_dates else start
         fetch_status = "complete"
         if first <= end:
-            print(f"KRX 조회 {first} ~ {end}: 하루 1회 API 호출로 56개 동시 수집", flush=True)
+            print(f"KRX 조회 {first} ~ {end}: 하루 1회 API 호출로 58개 동시 수집", flush=True)
         else:
             print("이미 수집된 확정일 데이터 사용", flush=True)
         attempted = 0
